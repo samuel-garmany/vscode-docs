@@ -106,7 +106,7 @@ label = false
 userns = "keep-id"
 ```
 
-After that you will need to add the following to your `devcontainer.json` to prevent Podman from attempting to create directories in `root`
+After that you will need to restart Podman add the following to your `devcontainer.json` to prevent Podman from attempting to create directories in `root`
 
 ```json
 	"containerUser": "vscode"
